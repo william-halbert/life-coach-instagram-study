@@ -75,23 +75,23 @@ export default function Page() {
         ))}
       </div>
 
-      {/* What doesn't change */}
-      <h2 className="text-xl font-bold mt-14 mb-4">What never changes</h2>
-      <div className="grid sm:grid-cols-2 gap-3">
+      {/* Checklist */}
+      <h2 className="text-xl font-bold mt-14 mb-4">Checklist before you post</h2>
+      <div className="space-y-2">
         {[
-          "Face in frame in the first 3 seconds",
-          "One idea per video, not five",
-          "No intro, no logo, no greeting",
-          "Burned-in subtitles, always",
-          "Original voice, no trending audio",
-          "Raw over polished, authenticity wins",
-          "30-90 seconds max",
-          "Every clip maps to something you sell or a longer piece of content",
+          "Show your face in the first 3 seconds",
+          "Talk about one thing, not five",
+          "Skip the intro. Just start talking.",
+          "Add subtitles (most people watch on mute)",
+          "Use your own voice, not a trending sound",
+          "Keep it under 90 seconds",
+          "Don't overthink production. Phone quality is fine.",
+          "Link it to something people can do next (full episode, free resource, your website)",
         ].map((rule) => (
-          <div key={rule} className="flex items-start gap-2 text-sm">
-            <span className="text-primary mt-0.5">✓</span>
+          <label key={rule} className="flex items-start gap-3 text-sm cursor-pointer">
+            <input type="checkbox" className="mt-1 accent-primary" />
             <span>{rule}</span>
-          </div>
+          </label>
         ))}
       </div>
     </div>
