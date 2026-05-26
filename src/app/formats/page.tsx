@@ -84,7 +84,7 @@ export default function Page() {
           "Do not use an intro",
           "Add subtitles",
           "Don't use music overlay",
-          "Keep it under 90 seconds",
+          "Keep it short",
           "Simple editing is all you need",
           "Have a link for people to go deeper",
         ].map((rule) => (
