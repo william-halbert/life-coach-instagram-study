@@ -7,7 +7,7 @@ const format = [
   ["Framing", "Close-up face, head-and-shoulders. Intimate. Feels like he's talking TO you."],
   ["Lighting", "Natural or soft indoor. Not studio-grade. Warm, slightly imperfect."],
   ["Background", "Plain wall, outdoor, or event stage. Nothing distracting."],
-  ["Length", "30–90 sec. Live coaching clips can run 60–90 sec."],
+  ["Length", "30-90 sec. Live coaching clips can run 60-90 sec."],
   ["Editing", "Minimal. Sometimes slow zoom on key moment. No jump cuts."],
   ["Text overlay", "Name + 'The Mind Architect' lower third. Sometimes question as text."],
   ["Subtitles", "Burned-in white captions. Standard placement."],
@@ -39,11 +39,11 @@ export default function Page() {
           <ol className="space-y-2 text-sm">
             <li><strong>1.</strong> Develop ONE signature question that reframes identity</li>
             <li><strong>2.</strong> Film direct-to-camera, close-up, natural light, plain background</li>
-            <li><strong>3.</strong> Speak quietly and intimately — thoughtful, not motivational</li>
+            <li><strong>3.</strong> Speak quietly and intimately, thoughtful, not motivational</li>
             <li><strong>4.</strong> Open with the question in first 3 seconds</li>
             <li><strong>5.</strong> Caption: ask people to SAVE the post and come back to it</li>
             <li><strong>6.</strong> Film live coaching sessions → clip the breakthrough moments</li>
-            <li><strong>7.</strong> Funnel: free gift &rarr; $29/mo membership &rarr; $5,400 mastermind</li>
+            <li><strong>7.</strong> Funnel: free gift → $29/mo membership → $5,400 mastermind</li>
           </ol>
         </CardContent>
       </Card>
@@ -51,7 +51,7 @@ export default function Page() {
       <Card className="bg-emerald-50/50 border-emerald-100 mb-10">
         <CardContent className="p-6">
           <h2 className="font-bold text-lg mb-2">Why his engagement is 4.5% at 1M followers</h2>
-          <p className="text-sm text-muted-foreground mb-3">Brene gets 0.59% at 5.2M. Simon gets 1.25% at 4.9M. Peter gets 4.5% at 1M — 3.6x Simon, 7.6x Brene.</p>
+          <p className="text-sm text-muted-foreground mb-3">Brene gets 0.59% at 5.2M. Simon gets 1.25% at 4.9M. Peter gets 4.5% at 1M. 3.6x Simon, 7.6x Brene.</p>
           <ul className="text-sm space-y-1.5">
             <li><strong>Questions &gt; statements.</strong> Questions trigger response. Statements trigger scroll.</li>
             <li><strong>Live breakthroughs are unwatchable-to-stop.</strong> Real person, real shift, real emotion.</li>
@@ -75,14 +75,14 @@ export default function Page() {
 
       <h2 className="text-xl font-bold mb-2">Top reel</h2>
       <div>
-        <h3 className="font-semibold">&ldquo;Who could you be in the absence of your concerns?&rdquo; — 14.3K likes</h3>
+        <h3 className="font-semibold">&ldquo;Who could you be in the absence of your concerns?&rdquo;. 14.3K likes</h3>
         <p className="text-sm text-muted-foreground mt-1">
           His signature question. Save CTA in caption. Drives reflection, not reaction.
         </p>
         <Embed url="https://www.instagram.com/p/DXCtPU0D1Bm/" note="Direct-to-camera question + save CTA = high engagement" />
       </div>
 
-      <h2 className="text-xl font-bold mt-12 mb-3">Links in bio &rarr; layered funnel</h2>
+      <h2 className="text-xl font-bold mt-12 mb-3">Links in bio → layered funnel</h2>
       <div className="text-sm space-y-3">
         <Card className="border-border/50"><CardContent className="p-4">
           <Badge className="bg-green-100 text-green-700 border-0 mb-1">Free</Badge>
@@ -90,15 +90,15 @@ export default function Page() {
         </CardContent></Card>
         <Card className="border-border/50"><CardContent className="p-4">
           <Badge className="bg-blue-100 text-blue-700 border-0 mb-1">$29/mo</Badge>
-          <p className="text-muted-foreground"><a href="https://www.petercrone.com/freedom" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">Freedom Membership</a> — courses, workshops, monthly live calls, community</p>
+          <p className="text-muted-foreground"><a href="https://www.petercrone.com/freedom" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">Freedom Membership</a>: courses, workshops, monthly live calls, community</p>
         </CardContent></Card>
         <Card className="border-border/50"><CardContent className="p-4">
           <Badge className="bg-purple-100 text-purple-700 border-0 mb-1">$5,400</Badge>
-          <p className="text-muted-foreground"><a href="https://www.petercrone.com/mastermind" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">The Mastermind</a> — 3 months, 8 live modules, workbooks, mentor calls</p>
+          <p className="text-muted-foreground"><a href="https://www.petercrone.com/mastermind" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">The Mastermind</a>: 3 months, 8 live modules, workbooks, mentor calls</p>
         </CardContent></Card>
         <Card className="border-border/50"><CardContent className="p-4">
           <Badge className="bg-amber-100 text-amber-700 border-0 mb-1">$2,297</Badge>
-          <p className="text-muted-foreground"><a href="https://www.petercrone.com/mm-retreat" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">Malibu Retreat</a> — alumni only. Must complete mastermind first.</p>
+          <p className="text-muted-foreground"><a href="https://www.petercrone.com/mm-retreat" target="_blank" rel="noopener noreferrer" className="text-emerald-600 underline">Malibu Retreat</a>, alumni only. Must complete mastermind first.</p>
         </CardContent></Card>
       </div>
     </div>

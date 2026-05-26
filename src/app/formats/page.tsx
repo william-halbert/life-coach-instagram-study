@@ -22,12 +22,12 @@ export default function Page() {
           <h2 className="text-xl font-bold mb-6">The recipe</h2>
           <ol className="space-y-4">
             {[
-              { step: "Record something longer", detail: "A podcast, interview, coaching session, talk — anything where you're being real and saying something worth hearing." },
-              { step: "Find the one moment", detail: "The single most surprising, emotional, or counterintuitive 30–90 seconds. Not the whole thing. ONE moment." },
+              { step: "Record something longer", detail: "A conversation, interview, coaching session, talk, anything where you're being real and saying something worth hearing." },
+              { step: "Find the one moment", detail: "The single most surprising, emotional, or counterintuitive 30-90 seconds. Not the whole thing. ONE moment." },
               { step: "Start mid-sentence", detail: "Cut so it opens at the interesting part. No intro, no logo, no 'hey guys.' Face on screen, bold sentence out of your mouth, first 3 seconds." },
-              { step: "Add captions", detail: "Burned-in subtitles. Most people watch without sound. That's it for editing — no music, no transitions, no effects." },
+              { step: "Add captions", detail: "Burned-in subtitles. Most people watch without sound. That's it for editing: no music, no transitions, no effects." },
               { step: "Write the caption", detail: "Brief context. Then either: 'Comment [WORD] and I'll DM you the full episode' (doubles comments) or 'Save this and come back to it' (drives saves)." },
-              { step: "Post 3–5x per week", detail: "Consistency matters more than perfection. One long recording gives you multiple clips." },
+              { step: "Post 3-5x per week", detail: "Consistency matters more than perfection. One long recording gives you multiple clips." },
             ].map((s, i) => (
               <li key={i} className="flex gap-4">
                 <span className="shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">
@@ -82,10 +82,10 @@ export default function Page() {
           "Face in frame in the first 3 seconds",
           "One idea per video, not five",
           "No intro, no logo, no greeting",
-          "Burned-in subtitles — always",
+          "Burned-in subtitles, always",
           "Original voice, no trending audio",
-          "Raw over polished — authenticity wins",
-          "30–90 seconds max",
+          "Raw over polished, authenticity wins",
+          "30-90 seconds max",
           "Every clip maps to something you sell or a longer piece of content",
         ].map((rule) => (
           <div key={rule} className="flex items-start gap-2 text-sm">

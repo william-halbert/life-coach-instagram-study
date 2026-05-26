@@ -7,7 +7,7 @@ const coaches = [
     href: "/brene-brown",
     img: "/coaches/brene.jpg",
     followers: "5.2M people listening",
-    format: "Podcast clip",
+    format: "Conversation clip",
     how: "2 people talking, mid-sentence start, no music, no editing",
   },
   {
@@ -16,7 +16,7 @@ const coaches = [
     img: "/coaches/simon.jpg",
     followers: "4.9M people listening",
     format: "Stage clip",
-    how: "Conference keynote, one-liner hook, audience visible",
+    how: "Conference keynote, one powerful sentence, audience visible",
   },
   {
     name: "Peter Crone",
@@ -32,7 +32,7 @@ const coaches = [
     img: "/coaches/mel.jpg",
     followers: "12.3M people listening",
     format: "Expert interview",
-    how: "Doctor/author guest, health hook, keyword CTA in caption",
+    how: "Doctor/author guest, health hook, asking people to comment a word",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Home() {
         <p className="text-muted-foreground mt-6 text-lg leading-relaxed">
           You became a coach to change lives. But the best message in the world
           means nothing if nobody sees it. These 4 coaches figured out how to
-          reach millions — and their formula is simpler than you think.
+          reach millions, and their formula is simpler than you think.
         </p>
         <p className="mt-4 text-base font-medium">
           We broke down exactly how they do it so you can do it too.
@@ -72,7 +72,7 @@ export default function Home() {
           <p className="text-muted-foreground mt-2 max-w-lg mx-auto">
             Record something real. Find the best 60 seconds. Add captions. Post it.
             No fancy equipment. No editing skills. No ad budget.
-            Just your voice and something worth saying — which you already have.
+            Just your voice and something worth saying, which you already have.
           </p>
           <Link
             href="/formats"

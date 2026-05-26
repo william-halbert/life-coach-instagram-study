@@ -7,7 +7,7 @@ const format = [
   ["Framing", "Chest-up close shot. Standard podcast framing."],
   ["Lighting", "Soft warm studio lights. 3-point setup, not ring light."],
   ["Background", "Styled bookshelf, cozy podcast set. Warm, slightly blurred."],
-  ["Length", "30–90 sec. One moment pulled from a 60-min episode."],
+  ["Length", "30-90 sec. One moment pulled from a 60-min episode."],
   ["Editing", "Almost zero. Cuts between speakers. No jump cuts, no effects."],
   ["Text overlay", "Small episode title bar at bottom. No big text hooks on screen."],
   ["Subtitles", "Burned-in white text with dark bar. Auto-caption style."],
@@ -34,13 +34,13 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Copy instructions — TOP, not bottom */}
+      {/* Copy instructions. TOP, not bottom */}
       <Card className="bg-violet-50 border-violet-200 mb-10">
         <CardContent className="p-6">
           <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
           <ol className="space-y-2 text-sm">
             <li><strong>1.</strong> Record a long conversation (podcast, interview, coaching call)</li>
-            <li><strong>2.</strong> Find the single most surprising 30–90 second moment</li>
+            <li><strong>2.</strong> Find the single most surprising 30-90 second moment</li>
             <li><strong>3.</strong> Cut it so it starts MID-SENTENCE at the surprising part</li>
             <li><strong>4.</strong> Burn in subtitles. Small title bar at bottom. Nothing else.</li>
             <li><strong>5.</strong> Caption: context + &ldquo;full episode at link in bio&rdquo;</li>
@@ -68,21 +68,21 @@ export default function Page() {
 
       <div className="space-y-10">
         <div>
-          <h3 className="font-semibold">&ldquo;Protect the Flame&rdquo; — 266K likes</h3>
+          <h3 className="font-semibold">&ldquo;Protect the Flame&rdquo;, 266K likes</h3>
           <p className="text-sm text-muted-foreground mt-1">
             Candle metaphor. Everyone thinks of a specific person → DM share → viral.
           </p>
-          <Embed url="https://www.instagram.com/reel/CcjD8t7OJ7U/" note="266K likes — one metaphor, universal recognition" />
+          <Embed url="https://www.instagram.com/reel/CcjD8t7OJ7U/" note="266K likes, one metaphor, universal recognition" />
         </div>
         <div>
-          <h3 className="font-semibold">&ldquo;Joy can cause relapse&rdquo; — Adam Grant</h3>
+          <h3 className="font-semibold">&ldquo;Joy can cause relapse&rdquo;. Adam Grant</h3>
           <p className="text-sm text-muted-foreground mt-1">
             Counterintuitive hook. Starts mid-conversation at the surprise. No intro.
           </p>
-          <Embed url="https://www.instagram.com/reel/DYnNRRTz0eW/" note="Podcast clip — counterintuitive finding drives shares" />
+          <Embed url="https://www.instagram.com/reel/DYnNRRTz0eW/" note="Conversation clip, counterintuitive finding drives shares" />
         </div>
         <div>
-          <h3 className="font-semibold">Atlas of the Heart teaser — 121K likes</h3>
+          <h3 className="font-semibold">Atlas of the Heart teaser. 121K likes</h3>
           <p className="text-sm text-muted-foreground mt-1">
             &ldquo;Been working on something special.&rdquo; Anticipation from trusted source.
           </p>
@@ -94,7 +94,7 @@ export default function Page() {
       <h2 className="text-xl font-bold mt-12 mb-3">Links in bio</h2>
       <p className="text-sm text-muted-foreground">
         Links to <a href="https://brenebrown.com/linkinprofile/" target="_blank" rel="noopener noreferrer" className="text-violet-600 underline">brenebrown.com/linkinprofile</a> which pushes one thing: her <a href="https://brenebrown.com/email/" target="_blank" rel="noopener noreferrer" className="text-violet-600 underline">email newsletter</a>.
-        No courses, no lead magnets, no paid funnels. She monetizes through books, Netflix, HBO specials, and speaking — not Instagram.
+        No courses, no lead magnets, no paid funnels. She monetizes through books, Netflix, HBO specials, and speaking. not Instagram.
       </p>
     </div>
   );
