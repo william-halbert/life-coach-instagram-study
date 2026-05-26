@@ -68,10 +68,10 @@ export default function Page() {
       <div className="text-sm text-muted-foreground space-y-2">
         <p>Every reel maps to a paid course. The free content IS the sales pitch:</p>
         <ul className="space-y-1 ml-4 list-disc">
-          <li><a href="https://simonsinek.com/product/find-your-why" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Find Your WHY</a>. 41 lessons</li>
-          <li><a href="https://simonsinek.com/product/unleash-your-infinite-mindset" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Infinite Mindset</a>. 33 lessons</li>
-          <li><a href="https://simonsinek.com/product/the-art-of-presenting" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Art of Presenting</a>. 45 lessons</li>
-          <li><strong>All-access: $24.99/mo</strong>. 125+ lessons + live Q&A with Simon</li>
+          <li><a href="https://simonsinek.com/product/find-your-why" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Find Your WHY</a> $129</li>
+          <li><a href="https://simonsinek.com/product/unleash-your-infinite-mindset" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Infinite Mindset</a> $129</li>
+          <li><a href="https://simonsinek.com/product/the-art-of-presenting" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline">Art of Presenting</a> $129</li>
+          <li><strong>All-access: $24.99/mo</strong></li>
         </ul>
       </div>
     </div>
