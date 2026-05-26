@@ -83,7 +83,7 @@ export default function Page() {
           "Use one idea for each video",
           "Skip the intro. Just start talking.",
           "Add subtitles (most people watch on mute)",
-          "Use your own voice, not a trending sound",
+          "Don't use music overlay",
           "Keep it under 90 seconds",
           "Don't overthink production. Phone quality is fine.",
           "Link it to something people can do next (full episode, free resource, your website)",
