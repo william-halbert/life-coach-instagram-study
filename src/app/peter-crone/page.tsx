@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Phone or single camera. Direct-to-camera solo. Two people talking for coaching."],
+  ["Camera", "Phone or single camera. Just you and your phone. Two people talking for coaching."],
   ["Framing", "Close-up face, head-and-shoulders. Intimate. Feels like he's talking TO you."],
   ["Lighting", "Natural or soft indoor. Not studio-grade. Warm, slightly imperfect."],
   ["Background", "Plain wall, outdoor, or event stage. Nothing distracting."],
@@ -38,7 +38,7 @@ export default function Page() {
           <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
           <ol className="space-y-2 text-sm">
             <li><strong>1.</strong> Develop ONE signature question that reframes identity</li>
-            <li><strong>2.</strong> Film direct-to-camera, close-up, natural light, plain background</li>
+            <li><strong>2.</strong> Film just you and your phone, close-up, natural light, plain background</li>
             <li><strong>3.</strong> Speak quietly and intimately, thoughtful, not motivational</li>
             <li><strong>4.</strong> Open with the question in first 3 seconds</li>
             <li><strong>5.</strong> Caption: ask people to SAVE the post and come back to it</li>
@@ -79,7 +79,7 @@ export default function Page() {
         <p className="text-sm text-muted-foreground mt-1">
           His signature question. Save CTA in caption. Drives reflection, not reaction.
         </p>
-        <Embed url="https://www.instagram.com/p/DXCtPU0D1Bm/" note="Direct-to-camera question + save CTA = high engagement" />
+        <Embed url="https://www.instagram.com/p/DXCtPU0D1Bm/" note="Just you and your phone question + save CTA = high engagement" />
       </div>
 
       <h2 className="text-xl font-bold mt-12 mb-3">Links in bio → layered funnel</h2>
