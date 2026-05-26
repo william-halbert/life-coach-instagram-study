@@ -20,26 +20,23 @@ export default function Page() {
       <Card className="mt-10 bg-primary/5 border-primary/20">
         <CardContent className="p-8">
           <h2 className="text-xl font-bold mb-6">The recipe</h2>
-          <ol className="space-y-4">
+          <div className="space-y-2">
             {[
-              { step: "Record something longer", detail: "A conversation, coaching session, talk, anything where you're being real and saying something worth hearing." },
-              { step: "Find the one moment", detail: "The single most surprising, emotional, or counterintuitive 30-90 seconds. Not the whole thing. ONE moment." },
-              { step: "Start mid-sentence", detail: "Cut so it opens at the interesting part. No intro, no logo, no 'hey guys.' Face on screen, bold sentence out of your mouth, first 3 seconds." },
-              { step: "Add captions", detail: "Add subtitles. Most people watch without sound. That's it for editing: no music, no transitions, no effects." },
-              { step: "Write the caption", detail: "Brief context. Then either: 'Comment [WORD] and I'll DM you the full episode' (doubles comments) or 'Save this and come back to it' (drives saves)." },
-              { step: "Post 3-5x per week", detail: "Consistency matters more than perfection. One long recording gives you multiple clips." },
-            ].map((s, i) => (
-              <li key={i} className="flex gap-4">
-                <span className="shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">
+              "Record a conversation, coaching session, or talk",
+              "Find the one best moment (30-90 seconds)",
+              "Start at the interesting part, not the beginning",
+              "Add subtitles",
+              "Write a short caption",
+              "Post a few times a week",
+            ].map((step, i) => (
+              <div key={i} className="flex items-start gap-3 text-sm">
+                <span className="shrink-0 w-6 h-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-bold mt-0.5">
                   {i + 1}
                 </span>
-                <div>
-                  <p className="font-semibold text-sm">{s.step}</p>
-                  <p className="text-sm text-muted-foreground mt-0.5">{s.detail}</p>
-                </div>
-              </li>
+                <span>{step}</span>
+              </div>
             ))}
-          </ol>
+          </div>
         </CardContent>
       </Card>
 
