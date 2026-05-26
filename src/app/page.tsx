@@ -78,7 +78,7 @@ export default function Home() {
             href="/formats"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 transition-opacity mt-6"
           >
-            See the step-by-step recipe →
+            See the step-by-step plan →
           </Link>
         </CardContent>
       </Card>
@@ -152,7 +152,7 @@ export default function Home() {
           href="/formats"
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 transition-opacity mt-6"
         >
-          Start with the recipe →
+          Start with the plan →
         </Link>
       </div>
     </div>
