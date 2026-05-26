@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const variations = [
-  { setting: "Podcast / interview", who: "Brene, Mel", camera: "2 cameras, seated across from guest", background: "Podcast set or quiet room", energy: "Conversational, warm" },
-  { setting: "Conference stage", who: "Simon", camera: "Multi-cam: wide stage + close-up", background: "Stage with audience visible", energy: "Confident, polished" },
+  { setting: "Seated conversation", who: "Brene, Mel", camera: "2 cameras, seated across from guest", background: "Podcast set or quiet room", energy: "Conversational, warm" },
+  { setting: "Stage", who: "Simon", camera: "Multi-cam: wide stage + close-up", background: "Stage with audience visible", energy: "Confident, polished" },
   { setting: "Direct to camera", who: "Peter", camera: "Phone, close-up on face", background: "Plain wall or outdoors", energy: "Quiet, intimate, thoughtful" },
   { setting: "Live coaching", who: "Peter", camera: "2 people, eye-level", background: "Event or studio", energy: "Emotional, real-time breakthrough" },
 ];
@@ -22,7 +22,7 @@ export default function Page() {
           <h2 className="text-xl font-bold mb-6">The recipe</h2>
           <ol className="space-y-4">
             {[
-              { step: "Record something longer", detail: "A conversation, interview, coaching session, talk, anything where you're being real and saying something worth hearing." },
+              { step: "Record something longer", detail: "A conversation, coaching session, talk, anything where you're being real and saying something worth hearing." },
               { step: "Find the one moment", detail: "The single most surprising, emotional, or counterintuitive 30-90 seconds. Not the whole thing. ONE moment." },
               { step: "Start mid-sentence", detail: "Cut so it opens at the interesting part. No intro, no logo, no 'hey guys.' Face on screen, bold sentence out of your mouth, first 3 seconds." },
               { step: "Add captions", detail: "Burned-in subtitles. Most people watch without sound. That's it for editing: no music, no transitions, no effects." },

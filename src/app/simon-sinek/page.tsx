@@ -4,9 +4,9 @@ import { Embed } from "@/lib/embed";
 
 const format = [
   ["Camera", "Pro multi-camera event recording. Wide stage + close-up face."],
-  ["Framing", "Waist-up or head-and-shoulders. Often seated across from interviewer."],
+  ["Framing", "Waist-up or head-and-shoulders. Often seated across from another person."],
   ["Lighting", "Stage lighting, spotlit speaker, darker background with audience."],
-  ["Background", "Conference stage with audience, or podcast studio with guest."],
+  ["Background", "Stage with audience, or podcast studio with guest."],
   ["Length", "30-60 sec. The single best one-liner from a keynote."],
   ["Editing", "Cuts between speaker and audience reactions. Clean, no effects."],
   ["Text overlay", "Sometimes event name. Mostly just spoken word + captions."],
@@ -37,7 +37,7 @@ export default function Page() {
         <CardContent className="p-6">
           <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
           <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Speak at events OR record podcast interviews</li>
+            <li><strong>1.</strong> Speak at events or record conversations</li>
             <li><strong>2.</strong> Find the ONE sentence that reframes something familiar</li>
             <li><strong>3.</strong> Open the clip with that sentence, first 3 sec = the hook</li>
             <li><strong>4.</strong> Burn in captions. Clean. No fancy graphics.</li>

@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Phone or single camera. Direct-to-camera solo. Interview-style for coaching."],
+  ["Camera", "Phone or single camera. Direct-to-camera solo. Two people talking for coaching."],
   ["Framing", "Close-up face, head-and-shoulders. Intimate. Feels like he's talking TO you."],
   ["Lighting", "Natural or soft indoor. Not studio-grade. Warm, slightly imperfect."],
   ["Background", "Plain wall, outdoor, or event stage. Nothing distracting."],

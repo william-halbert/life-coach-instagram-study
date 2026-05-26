@@ -37,7 +37,7 @@ export default function Page() {
         <CardContent className="p-6">
           <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
           <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Interview an expert guest on your podcast (doctor, author, researcher)</li>
+            <li><strong>1.</strong> Have a conversation with someone credible (doctor, author, researcher)</li>
             <li><strong>2.</strong> Pull the most surprising stat or claim. 30-60 seconds</li>
             <li><strong>3.</strong> Open with the SHOCK: &ldquo;This stat will blow your mind&rdquo;</li>
             <li><strong>4.</strong> Bold burned-in subtitles + guest name + episode title on screen</li>

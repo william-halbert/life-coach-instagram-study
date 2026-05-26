@@ -16,7 +16,7 @@ const coaches = [
     img: "/coaches/simon.jpg",
     followers: "4.9M people listening",
     format: "Stage clip",
-    how: "Conference keynote, one powerful sentence, audience visible",
+    how: "Stage talk, one powerful sentence, audience visible",
   },
   {
     name: "Peter Crone",
@@ -31,7 +31,7 @@ const coaches = [
     href: "/mel-robbins",
     img: "/coaches/mel.jpg",
     followers: "12.3M people listening",
-    format: "Expert interview",
+    format: "Expert conversation",
     how: "Doctor/author guest, health hook, asking people to comment a word",
   },
 ];

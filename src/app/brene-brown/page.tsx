@@ -39,7 +39,7 @@ export default function Page() {
         <CardContent className="p-6">
           <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
           <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Record a long conversation (podcast, interview, coaching call)</li>
+            <li><strong>1.</strong> Record a long conversation (conversation, coaching call, or talk)</li>
             <li><strong>2.</strong> Find the single most surprising 30-90 second moment</li>
             <li><strong>3.</strong> Cut it so it starts MID-SENTENCE at the surprising part</li>
             <li><strong>4.</strong> Burn in subtitles. Small title bar at bottom. Nothing else.</li>
