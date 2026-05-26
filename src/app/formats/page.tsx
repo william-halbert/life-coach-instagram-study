@@ -86,7 +86,7 @@ export default function Page() {
           "Don't use music overlay",
           "Keep it under 90 seconds",
           "Simple editing is all you need",
-          "Link it to something people can do next (full episode, free resource, your website)",
+          "Have a link for people to go deeper",
         ].map((rule) => (
           <div key={rule} className="flex items-start gap-3 text-sm">
             <span className="text-primary mt-0.5">✓</span>
