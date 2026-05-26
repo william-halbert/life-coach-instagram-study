@@ -10,9 +10,10 @@ const variations = [
 export default function Page() {
   return (
     <div className="max-w-5xl mx-auto px-6 pt-12 pb-20">
-      <h1 className="text-3xl font-bold tracking-tight">The format</h1>
+      <h1 className="text-3xl font-bold tracking-tight">The recipe to get your message heard</h1>
       <p className="text-muted-foreground mt-2 text-base max-w-xl">
-        Every coach in this study uses the same format. The only thing that changes is the setting.
+        Every coach in this study uses the same simple format. No studio, no team, no ad budget.
+        Just your voice, a phone, and something worth saying. Here's exactly how.
       </p>
 
       {/* The one recipe */}
