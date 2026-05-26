@@ -8,6 +8,7 @@ const geist = Geist({ variable: "--font-sans", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Life Coach Instagram Study",
   description: "How top life coaches make Instagram content that works.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Embed } from "@/lib/embed";
+import { Clip } from "@/lib/clip";
 
 const format = [
   ["Camera", "Two people in a studio"],
@@ -44,32 +44,26 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className="text-xl font-bold mb-2">Top reels</h2>
-      <p className="text-muted-foreground text-sm mb-6">Watch for: expert guest, health hook, comment trigger.</p>
-
-      <div className="space-y-10">
-        <div>
-          <h3 className="font-semibold">Dr. Gabor Mate. trauma &amp; autoimmune. 897K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            Her biggest ever. Health fear hook + world-class guest + &ldquo;SHOCKED&rdquo; language.
-            897K likes on 12.3M followers = 7.3% like rate. Monster.
-          </p>
-          <Embed url="https://www.instagram.com/reel/DCnA8hTudUX/" note="897K likes, health fear + expert guest = her formula at peak" />
-        </div>
-        <div>
-          <h3 className="font-semibold">&ldquo;You&rsquo;re not lazy&rdquo;. rest with Jim Kwik. 80.8K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            Permission-giving hook. &ldquo;Comment REST and I&rsquo;ll DM you.&rdquo; Anti-hustle message.
-          </p>
-          <Embed url="https://www.instagram.com/reel/DX3O5g7jKVm/" note="80.8K likes, permission + comment trigger = high engagement" />
-        </div>
-        <div>
-          <h3 className="font-semibold">Menopause with Dr. Vonda Wright. 27.2K likes, 1.9K comments</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            &ldquo;Comment Vonda.&rdquo; 1.9K comments on 27K likes = 7% comment ratio. CTA drove it.
-          </p>
-          <Embed url="https://www.instagram.com/reel/DYgJEi3DPs9/" note="Keyword CTA 'Comment Vonda' drove massive comment count" />
-        </div>
+      <h2 className="text-xl font-bold mb-6">Her clips</h2>
+      <div className="space-y-12">
+        <Clip
+          url="https://www.instagram.com/reel/DCnA8hTudUX/"
+          opener="This statistic about women and autoimmune diseases will leave you shocked"
+          subtitle="897K likes"
+          explanation="Her biggest ever. Surprising health fact from a famous expert. Opens with something that makes you need to keep watching."
+        />
+        <Clip
+          url="https://www.instagram.com/reel/DX3O5g7jKVm/"
+          opener="You're not lazy"
+          subtitle="80.8K likes"
+          explanation="Gives people permission to rest. Caption says 'Comment REST and I'll DM you the episode.' That one line doubled her comments."
+        />
+        <Clip
+          url="https://www.instagram.com/reel/DYgJEi3DPs9/"
+          opener="Menopause is not something you need to suffer through"
+          subtitle="27.2K likes, 1.9K comments"
+          explanation="Talks about something most people avoid. Caption says 'Comment Vonda.' Almost 2,000 people commented that one word."
+        />
       </div>
 
       <h2 className="text-xl font-bold mt-12 mb-3">What she sells</h2>

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Embed } from "@/lib/embed";
+import { Clip } from "@/lib/clip";
 
 const format = [
   ["Camera", "Just his phone"],
@@ -44,13 +44,14 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className="text-xl font-bold mb-2">Top reel</h2>
-      <div>
-        <h3 className="font-semibold">&ldquo;Who could you be in the absence of your concerns?&rdquo;. 14.3K likes</h3>
-        <p className="text-sm text-muted-foreground mt-1">
-          His signature question. Save CTA in caption. Drives reflection, not reaction.
-        </p>
-        <Embed url="https://www.instagram.com/p/DXCtPU0D1Bm/" note="Just you and your phone question + save CTA = high engagement" />
+      <h2 className="text-xl font-bold mb-6">His clips</h2>
+      <div className="space-y-12">
+        <Clip
+          url="https://www.instagram.com/p/DXCtPU0D1Bm/"
+          opener="Who could you be in the absence of your concerns?"
+          subtitle="14.3K likes"
+          explanation="His signature question. Caption asks people to save the post and come back to it later. Drives reflection, not reaction."
+        />
       </div>
 
       <h2 className="text-xl font-bold mt-12 mb-3">Links in bio → layered funnel</h2>

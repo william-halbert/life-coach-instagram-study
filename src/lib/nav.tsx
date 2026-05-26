@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 const links = [
   { label: "Home", href: "/" },
   { label: "The Plan", href: "/formats" },
-  { label: "Brene", href: "/brene-brown" },
   { label: "Simon", href: "/simon-sinek" },
-  { label: "Peter", href: "/peter-crone" },
   { label: "Mel", href: "/mel-robbins" },
+  { label: "Peter", href: "/peter-crone" },
+  { label: "Brene", href: "/brene-brown" },
 ];
 
 export function Nav() {

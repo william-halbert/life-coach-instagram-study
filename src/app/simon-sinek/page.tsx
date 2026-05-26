@@ -1,6 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Embed } from "@/lib/embed";
+import { Clip } from "@/lib/clip";
 
 const format = [
   ["Camera", "Someone films him on stage"],
@@ -43,25 +42,26 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className="text-xl font-bold mb-2">Top reels</h2>
-      <p className="text-muted-foreground text-sm mb-6">Watch for the one-liner hook in first 3 seconds.</p>
-
-      <div className="space-y-10">
-        <div>
-          <h3 className="font-semibold">&ldquo;Friendship is a foundation, not a luxury&rdquo;. 37.8K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">One-sentence reframe. Universal topic. 2x his average.</p>
-          <Embed url="https://www.instagram.com/reel/DXO9e3JAeaK/" note="37.8K likes, one reframe, universal resonance" />
-        </div>
-        <div>
-          <h3 className="font-semibold">&ldquo;We used to accidentally get good at being human&rdquo;. 14.2K, 407 comments</h3>
-          <p className="text-sm text-muted-foreground mt-1">Conversation clip with Vanessa Van Edwards. CTA: &ldquo;Comment collisions.&rdquo; 2x his comment average.</p>
-          <Embed url="https://www.instagram.com/reel/DYhyaMku_gO/" note="Keyword CTA doubled comments" />
-        </div>
-        <div>
-          <h3 className="font-semibold">&ldquo;We are not present until others say we are&rdquo;. 12K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">Counterintuitive reframe. Screenshot-worthy one-liner.</p>
-          <Embed url="https://www.instagram.com/reel/DYpTFvuCvba/" note="Quotable reframe = DM shares" />
-        </div>
+      <h2 className="text-xl font-bold mb-6">His clips</h2>
+      <div className="space-y-12">
+        <Clip
+          url="https://www.instagram.com/reel/DXO9e3JAeaK/"
+          opener="Friendship is a foundation, not a luxury"
+          subtitle="37.8K likes"
+          explanation="One sentence that reframes something everyone knows. Universal topic. People share it because it feels true."
+        />
+        <Clip
+          url="https://www.instagram.com/reel/DYhyaMku_gO/"
+          opener="We used to accidentally get good at being human"
+          subtitle="14.2K likes, 407 comments"
+          explanation="Conversation with Vanessa Van Edwards. Caption says 'Comment collisions and I'll DM you the episode.' That one line doubled his comments."
+        />
+        <Clip
+          url="https://www.instagram.com/reel/DYpTFvuCvba/"
+          opener="We are not present until others say we are"
+          subtitle="12K likes"
+          explanation="Counterintuitive idea that makes you stop and think. The kind of thing people screenshot and send to a friend."
+        />
       </div>
 
       <h2 className="text-xl font-bold mt-12 mb-3">Links in bio → course funnel</h2>

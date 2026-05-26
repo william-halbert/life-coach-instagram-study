@@ -3,20 +3,20 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const coaches = [
   {
-    name: "Brene Brown",
-    href: "/brene-brown",
-    img: "/coaches/brene.jpg",
-    followers: "5.2M people listening",
-    format: "Conversation clip",
-    how: "2 people talking, mid-sentence start, no music, no editing",
-  },
-  {
     name: "Simon Sinek",
     href: "/simon-sinek",
     img: "/coaches/simon.jpg",
     followers: "4.9M people listening",
     format: "Stage clip",
     how: "Stage talk, one powerful sentence, audience visible",
+  },
+  {
+    name: "Mel Robbins",
+    href: "/mel-robbins",
+    img: "/coaches/mel.jpg",
+    followers: "12.3M people listening",
+    format: "Expert conversation",
+    how: "Doctor/author guest, health hook, asking people to comment a word",
   },
   {
     name: "Peter Crone",
@@ -27,12 +27,12 @@ const coaches = [
     how: "Real-time coaching on camera, question-based, intimate",
   },
   {
-    name: "Mel Robbins",
-    href: "/mel-robbins",
-    img: "/coaches/mel.jpg",
-    followers: "12.3M people listening",
-    format: "Expert conversation",
-    how: "Doctor/author guest, health hook, asking people to comment a word",
+    name: "Brene Brown",
+    href: "/brene-brown",
+    img: "/coaches/brene.jpg",
+    followers: "5.2M people listening",
+    format: "Conversation clip",
+    how: "2 people talking, mid-sentence start, no music, no editing",
   },
 ];
 
