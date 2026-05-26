@@ -81,7 +81,7 @@ export default function Page() {
         {[
           "Show your face in the first 3 seconds",
           "Use one idea for each video",
-          "Skip the intro. Just start talking.",
+          "Do not use an intro",
           "Add subtitles (most people watch on mute)",
           "Don't use music overlay",
           "Keep it under 90 seconds",
