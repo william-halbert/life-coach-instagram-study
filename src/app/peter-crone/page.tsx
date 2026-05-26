@@ -7,7 +7,7 @@ const format = [
   ["Framing", "Close-up face, head-and-shoulders. Intimate. Feels like he's talking TO you."],
   ["Lighting", "Natural or soft indoor. Not studio-grade. Warm, slightly imperfect."],
   ["Background", "Plain wall, outdoor, or event stage. Nothing distracting."],
-  ["Length", "30-90 sec. Live coaching clips can run 60-90 sec."],
+  ["Length", "30-90 sec. Coaching clips can run 60-90 sec."],
   ["Editing", "Minimal. Sometimes slow zoom on key moment. No jump cuts."],
   ["Text overlay", "Name + 'The Mind Architect' lower third. Sometimes question as text."],
   ["Subtitles", "Burned-in white captions. Standard placement."],
@@ -42,7 +42,7 @@ export default function Page() {
             <li><strong>3.</strong> Speak quietly and intimately, thoughtful, not motivational</li>
             <li><strong>4.</strong> Open with the question in first 3 seconds</li>
             <li><strong>5.</strong> Caption: ask people to SAVE the post and come back to it</li>
-            <li><strong>6.</strong> Film live coaching sessions → clip the breakthrough moments</li>
+            <li><strong>6.</strong> Film coaching sessions → clip the breakthrough moments</li>
             <li><strong>7.</strong> Funnel: free gift → $29/mo membership → $5,400 mastermind</li>
           </ol>
         </CardContent>
@@ -54,7 +54,7 @@ export default function Page() {
           <p className="text-sm text-muted-foreground mb-3">Brene gets 0.59% at 5.2M. Simon gets 1.25% at 4.9M. Peter gets 4.5% at 1M. 3.6x Simon, 7.6x Brene.</p>
           <ul className="text-sm space-y-1.5">
             <li><strong>Questions &gt; statements.</strong> Questions trigger response. Statements trigger scroll.</li>
-            <li><strong>Live breakthroughs are unwatchable-to-stop.</strong> Real person, real shift, real emotion.</li>
+            <li><strong>Coaching moments are unwatchable-to-stop.</strong> Real person, real shift, real emotion.</li>
             <li><strong>Save CTA &gt; like CTA.</strong> Saves = higher algo signal than likes.</li>
             <li><strong>Paying members engage on free content too.</strong> $29/mo community boosts everything.</li>
           </ul>

@@ -4,7 +4,7 @@ const variations = [
   { setting: "Seated conversation", who: "Brene, Mel", camera: "2 cameras, seated across from guest", background: "Podcast set or quiet room", energy: "Conversational, warm" },
   { setting: "Stage", who: "Simon", camera: "Multi-cam: wide stage + close-up", background: "Stage with audience visible", energy: "Confident, polished" },
   { setting: "Direct to camera", who: "Peter", camera: "Phone, close-up on face", background: "Plain wall or outdoors", energy: "Quiet, intimate, thoughtful" },
-  { setting: "Live coaching", who: "Peter", camera: "2 people, eye-level", background: "Event or studio", energy: "Emotional, real-time breakthrough" },
+  { setting: "Coaching", who: "Peter", camera: "2 people, eye-level", background: "Event or studio", energy: "Emotional, real-time breakthrough" },
 ];
 
 export default function Page() {

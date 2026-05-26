@@ -23,7 +23,7 @@ const coaches = [
     href: "/peter-crone",
     img: "/coaches/peter.jpg",
     followers: "1M people listening",
-    format: "Live breakthrough",
+    format: "Coaching moment",
     how: "Real-time coaching on camera, question-based, intimate",
   },
   {
