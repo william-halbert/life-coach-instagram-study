@@ -10,7 +10,7 @@ const format = [
   ["Length", "30-60 sec clips from full episodes. Pulled at the most hook-worthy moment."],
   ["Editing", "Quick cuts between her and guest. Zoom-ins on key lines. More edited than others."],
   ["Text overlay", "Episode title, guest name, topic, all on screen. Bold, clear, readable."],
-  ["Subtitles", "Burned-in, large, bold text. Easy to read with sound off."],
+  ["Subtitles", "Large, bold text on screen. Easy to read with sound off."],
   ["Audio", "Original voice. Sometimes light background music bed. No trending sounds."],
   ["Appearance", "Casual chic, fitted top, natural makeup, expressive face. High energy."],
   ["First 3 sec", "SHOCKING stat or bold claim. 'This statistic will leave you SHOCKED.'"],
@@ -40,7 +40,7 @@ export default function Page() {
             <li><strong>1.</strong> Have a conversation with someone credible (doctor, author, researcher)</li>
             <li><strong>2.</strong> Pull the most surprising stat or claim. 30-60 seconds</li>
             <li><strong>3.</strong> Open with the SHOCK: &ldquo;This stat will blow your mind&rdquo;</li>
-            <li><strong>4.</strong> Bold burned-in subtitles + guest name + episode title on screen</li>
+            <li><strong>4.</strong> Bold subtitles + guest name + episode title on screen</li>
             <li><strong>5.</strong> Caption: &ldquo;Comment [WORD] and I&rsquo;ll DM you the full episode&rdquo;</li>
             <li><strong>6.</strong> Test concepts as clips FIRST → turn winners into books/products</li>
           </ol>

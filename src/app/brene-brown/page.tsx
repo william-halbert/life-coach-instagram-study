@@ -10,7 +10,7 @@ const format = [
   ["Length", "30-90 sec. One moment pulled from a 60-min episode."],
   ["Editing", "Almost zero. Cuts between speakers. No jump cuts, no effects."],
   ["Text overlay", "Small episode title bar at bottom. No big text hooks on screen."],
-  ["Subtitles", "Burned-in white text with dark bar. Auto-caption style."],
+  ["Subtitles", "White text on screen so people can read without sound."],
   ["Audio", "Original voice only. Zero music. Zero trending sounds."],
   ["Appearance", "T-shirt, glasses, natural hair. 'Real person at a table.'"],
   ["First 3 sec", "Drops in MID-SENTENCE at the surprising part. No intro."],
@@ -42,7 +42,7 @@ export default function Page() {
             <li><strong>1.</strong> Record a long conversation (conversation, coaching call, or talk)</li>
             <li><strong>2.</strong> Find the single most surprising 30-90 second moment</li>
             <li><strong>3.</strong> Cut it so it starts MID-SENTENCE at the surprising part</li>
-            <li><strong>4.</strong> Burn in subtitles. Small title bar at bottom. Nothing else.</li>
+            <li><strong>4.</strong> Add subtitles. Small title bar at bottom. Nothing else.</li>
             <li><strong>5.</strong> Caption: context + &ldquo;full episode at link in bio&rdquo;</li>
             <li><strong>6.</strong> No music. No effects. No transitions. Conversation IS the content.</li>
           </ol>

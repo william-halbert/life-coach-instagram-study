@@ -10,7 +10,7 @@ const format = [
   ["Length", "30-60 sec. The single best one-liner from a keynote."],
   ["Editing", "Cuts between speaker and audience reactions. Clean, no effects."],
   ["Text overlay", "Sometimes event name. Mostly just spoken word + captions."],
-  ["Subtitles", "Burned-in white auto-captions. Standard."],
+  ["Subtitles", "White subtitles on screen."],
   ["Audio", "Original voice from event. No music. No trending sounds."],
   ["Appearance", "Casual smart, blazer or sweater, no tie. Approachable."],
   ["First 3 sec", "Opens with THE ONE-LINER. 'Friendship is a foundation. not a luxury.'"],
@@ -40,7 +40,7 @@ export default function Page() {
             <li><strong>1.</strong> Speak at events or record conversations</li>
             <li><strong>2.</strong> Find the ONE sentence that reframes something familiar</li>
             <li><strong>3.</strong> Open the clip with that sentence, first 3 sec = the hook</li>
-            <li><strong>4.</strong> Burn in captions. Clean. No fancy graphics.</li>
+            <li><strong>4.</strong> Add subtitles. Clean. No fancy graphics.</li>
             <li><strong>5.</strong> Caption: &ldquo;Comment [WORD] and I&rsquo;ll DM you the full episode&rdquo;</li>
             <li><strong>6.</strong> Each clip should map to something you sell. Free content = the pitch.</li>
           </ol>

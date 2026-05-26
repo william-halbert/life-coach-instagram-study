@@ -10,7 +10,7 @@ const format = [
   ["Length", "30-90 sec. Coaching clips can run 60-90 sec."],
   ["Editing", "Minimal. Sometimes slow zoom on key moment. No jump cuts."],
   ["Text overlay", "Name + 'The Mind Architect' lower third. Sometimes question as text."],
-  ["Subtitles", "Burned-in white captions. Standard placement."],
+  ["Subtitles", "White captions on screen. Standard placement."],
   ["Audio", "Original voice. No music. Quiet intimate delivery, almost a whisper."],
   ["Appearance", "Plain dark t-shirt, relaxed, calm. Nothing flashy. Energy IS the brand."],
   ["First 3 sec", "Opens with THE QUESTION: 'Who could you be in the absence of your concerns?'"],

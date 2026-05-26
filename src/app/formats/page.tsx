@@ -25,7 +25,7 @@ export default function Page() {
               { step: "Record something longer", detail: "A conversation, coaching session, talk, anything where you're being real and saying something worth hearing." },
               { step: "Find the one moment", detail: "The single most surprising, emotional, or counterintuitive 30-90 seconds. Not the whole thing. ONE moment." },
               { step: "Start mid-sentence", detail: "Cut so it opens at the interesting part. No intro, no logo, no 'hey guys.' Face on screen, bold sentence out of your mouth, first 3 seconds." },
-              { step: "Add captions", detail: "Burned-in subtitles. Most people watch without sound. That's it for editing: no music, no transitions, no effects." },
+              { step: "Add captions", detail: "Add subtitles. Most people watch without sound. That's it for editing: no music, no transitions, no effects." },
               { step: "Write the caption", detail: "Brief context. Then either: 'Comment [WORD] and I'll DM you the full episode' (doubles comments) or 'Save this and come back to it' (drives saves)." },
               { step: "Post 3-5x per week", detail: "Consistency matters more than perfection. One long recording gives you multiple clips." },
             ].map((s, i) => (
