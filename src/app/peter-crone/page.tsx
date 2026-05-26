@@ -34,19 +34,6 @@ export default function Page() {
       </div>
 
 
-      <Card className="bg-emerald-50/50 border-emerald-100 mb-10">
-        <CardContent className="p-6">
-          <h2 className="font-bold text-lg mb-2">Why his engagement is 4.5% at 1M followers</h2>
-          <p className="text-sm text-muted-foreground mb-3">Brene gets 0.59% at 5.2M. Simon gets 1.25% at 4.9M. Peter gets 4.5% at 1M. 3.6x Simon, 7.6x Brene.</p>
-          <ul className="text-sm space-y-1.5">
-            <li><strong>Questions &gt; statements.</strong> Questions trigger response. Statements trigger scroll.</li>
-            <li><strong>Coaching moments are unwatchable-to-stop.</strong> Real person, real shift, real emotion.</li>
-            <li><strong>Save CTA &gt; like CTA.</strong> Saves = higher algo signal than likes.</li>
-            <li><strong>Paying members engage on free content too.</strong> $29/mo community boosts everything.</li>
-          </ul>
-        </CardContent>
-      </Card>
-
       <h2 className="text-xl font-bold mb-4">How he does it</h2>
       <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm mb-12">
         {format.map(([label, desc]) => (
