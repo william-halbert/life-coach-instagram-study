@@ -48,27 +48,18 @@ export default function Page() {
       <h2 className="text-xl font-bold mb-2">Top reels</h2>
       <p className="text-muted-foreground text-sm mb-6">Watch these to see the format in action.</p>
 
-      <div className="space-y-10">
-        <div>
-          <h3 className="font-semibold">&ldquo;Protect the Flame&rdquo;, 266K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            Candle metaphor. Everyone thinks of a specific person → DM share → viral.
-          </p>
-          <Embed url="https://www.instagram.com/reel/CcjD8t7OJ7U/" note="266K likes, one metaphor, universal recognition" />
+      <div className="space-y-4">
+        <div className="text-sm">
+          <a href="https://www.instagram.com/reel/CcjD8t7OJ7U/" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-600 underline">&ldquo;Protect the Flame&rdquo;</a>
+          <span className="text-muted-foreground"> 266K likes. Candle metaphor. Everyone thinks of someone specific and sends it.</span>
         </div>
-        <div>
-          <h3 className="font-semibold">&ldquo;Joy can cause relapse&rdquo;. Adam Grant</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            Counterintuitive hook. Starts mid-conversation at the surprise. No intro.
-          </p>
-          <Embed url="https://www.instagram.com/reel/DYnNRRTz0eW/" note="Conversation clip, counterintuitive finding drives shares" />
+        <div className="text-sm">
+          <a href="https://www.instagram.com/reel/DYnNRRTz0eW/" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-600 underline">&ldquo;Joy can cause relapse&rdquo; with Adam Grant</a>
+          <span className="text-muted-foreground"> Counterintuitive hook. Starts mid-conversation at the surprise.</span>
         </div>
-        <div>
-          <h3 className="font-semibold">Atlas of the Heart teaser. 121K likes</h3>
-          <p className="text-sm text-muted-foreground mt-1">
-            &ldquo;Been working on something special.&rdquo; Anticipation from trusted source.
-          </p>
-          <Embed url="https://www.instagram.com/reel/Ca5GwE3poLv/" note="Simple tease + date = anticipation engine" />
+        <div className="text-sm">
+          <a href="https://www.instagram.com/reel/Ca5GwE3poLv/" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-600 underline">Atlas of the Heart teaser</a>
+          <span className="text-muted-foreground"> 121K likes. &ldquo;Been working on something special.&rdquo;</span>
         </div>
       </div>
 
