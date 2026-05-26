@@ -1,65 +1,118 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent } from "@/components/ui/card";
+
+const coaches = [
+  {
+    name: "Brene Brown",
+    href: "/brene-brown",
+    img: "/coaches/brene.jpg",
+    followers: "5.2M followers",
+    format: "Podcast clip",
+    how: "2 people talking, mid-sentence start, no music, no editing",
+    sells: "Books, Netflix, HBO",
+  },
+  {
+    name: "Simon Sinek",
+    href: "/simon-sinek",
+    img: "/coaches/simon.jpg",
+    followers: "4.9M followers",
+    format: "Stage clip",
+    how: "Conference keynote, one-liner hook, audience visible",
+    sells: "Online courses, speaking",
+  },
+  {
+    name: "Peter Crone",
+    href: "/peter-crone",
+    img: "/coaches/peter.jpg",
+    followers: "1M followers",
+    format: "Live breakthrough",
+    how: "Real-time coaching on camera, question-based, intimate",
+    sells: "Membership, mastermind, retreat",
+  },
+  {
+    name: "Mel Robbins",
+    href: "/mel-robbins",
+    img: "/coaches/mel.jpg",
+    followers: "12.3M followers",
+    format: "Expert interview",
+    how: "Doctor/author guest, health hook, keyword CTA in caption",
+    sells: "Books (9M+ sold), podcast, protein brand",
+  },
+];
+
+const rules = [
+  { emoji: "🎬", title: "First 3 seconds = face + one bold sentence", body: "50% leave in 3 sec. No intros. No logos. Start mid-sentence at the good part." },
+  { emoji: "☝️", title: "One idea per video", body: "Not 5 tips. One question, one reframe, one moment. Text-message simple." },
+  { emoji: "📩", title: "Make it sendable", body: "DM shares are Instagram's #1 algorithm signal. If it makes someone think of a friend, it wins." },
+  { emoji: "📱", title: "Raw over polished", body: "Every coach here uses minimal production. Authenticity IS the aesthetic." },
+  { emoji: "💬", title: '"Comment REST" CTA', body: "\"Comment REST and I'll DM you the episode.\" Doubles comments. Sinek + Mel do this every post." },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="max-w-5xl mx-auto px-6">
+      <div className="pt-16 pb-12">
+        <p className="text-sm text-muted-foreground mb-3">Research Study — May 2026</p>
+        <h1 className="text-4xl font-bold tracking-tight leading-tight">
+          How top life coaches <br />
+          <span className="text-primary">win on Instagram</span>
+        </h1>
+        <p className="text-muted-foreground mt-4 text-lg max-w-lg leading-relaxed">
+          4 coaches. Their exact video formats, what they link to, how they sell,
+          and step-by-step how to copy each one.
+        </p>
+      </div>
+
+      <div className="grid sm:grid-cols-2 gap-4">
+        {coaches.map((c) => (
+          <Link key={c.href} href={c.href} className="group">
+            <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow border-border/60">
+              <CardContent className="p-5 flex gap-4 items-start">
+                <img
+                  src={c.img}
+                  alt={c.name}
+                  className="w-14 h-14 rounded-full object-cover shrink-0"
+                />
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-base">{c.name}</h3>
+                  <p className="text-xs text-muted-foreground">{c.followers}</p>
+                  <p className="text-sm font-medium text-primary mt-1.5">{c.format}</p>
+                  <p className="text-sm text-muted-foreground mt-0.5">{c.how}</p>
+                  <p className="text-xs text-muted-foreground mt-2">Sells: {c.sells}</p>
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+        ))}
+      </div>
+
+      <div className="mt-20">
+        <h2 className="text-2xl font-bold tracking-tight mb-8">
+          5 format rules every coach follows
+        </h2>
+        <div className="space-y-3">
+          {rules.map((r, i) => (
+            <Card key={i} className="border-border/50">
+              <CardContent className="p-5 flex gap-4 items-start">
+                <span className="text-2xl">{r.emoji}</span>
+                <div>
+                  <p className="font-medium text-sm">{r.title}</p>
+                  <p className="text-sm text-muted-foreground mt-0.5">{r.body}</p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </div>
+
+      <div className="mt-16 mb-20 text-center">
+        <Link
+          href="/formats"
+          className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 transition-opacity"
+        >
+          See all video format recipes →
+        </Link>
+      </div>
     </div>
   );
 }
