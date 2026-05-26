@@ -3,18 +3,18 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "2-camera podcast setup. Seated, eye-level. Cuts between her and guest."],
-  ["Framing", "Chest-up close shot. Standard podcast framing."],
-  ["Lighting", "Soft warm studio lights. 3-point setup, not ring light."],
-  ["Background", "Styled bookshelf, cozy podcast set. Warm, slightly blurred."],
-  ["Length", "30-90 sec. One moment pulled from a 60-min episode."],
-  ["Editing", "Almost zero. Cuts between speakers. No jump cuts, no effects."],
-  ["Text overlay", "Small episode title bar at bottom. No big text hooks on screen."],
-  ["Subtitles", "White text on screen so people can read without sound."],
-  ["Audio", "Original voice only. Zero music. Zero trending sounds."],
-  ["Appearance", "T-shirt, glasses, natural hair. 'Real person at a table.'"],
-  ["First 3 sec", "Drops in MID-SENTENCE at the surprising part. No intro."],
-  ["CTA", "Caption: 'full episode at link in bio.' No DM automation."],
+  ["Camera", "Two people sitting across from each other"],
+  ["Framing", "Close-up, chest and above"],
+  ["Lighting", "Soft, warm, studio-quality"],
+  ["Background", "Bookshelf or cozy room"],
+  ["Length", "30-90 seconds"],
+  ["Editing", "Almost none. Just cuts between speakers."],
+  ["Text", "Small title bar at the bottom"],
+  ["Subtitles", "Yes, always on screen"],
+  ["Audio", "Just their voices. No music."],
+  ["What she wears", "T-shirt, glasses, natural hair"],
+  ["How it starts", "Mid-sentence at the surprising part. No intro."],
+  ["Caption", "'Full episode at link in bio'"],
 ];
 
 export default function Page() {
@@ -34,31 +34,13 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Copy instructions. TOP, not bottom */}
-      <Card className="bg-violet-50 border-violet-200 mb-10">
-        <CardContent className="p-6">
-          <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
-          <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Record a long conversation (conversation, coaching call, or talk)</li>
-            <li><strong>2.</strong> Find the single most surprising 30-90 second moment</li>
-            <li><strong>3.</strong> Cut it so it starts MID-SENTENCE at the surprising part</li>
-            <li><strong>4.</strong> Add subtitles. Small title bar at bottom. Nothing else.</li>
-            <li><strong>5.</strong> Caption: context + &ldquo;full episode at link in bio&rdquo;</li>
-            <li><strong>6.</strong> No music. No effects. No transitions. Conversation IS the content.</li>
-          </ol>
-        </CardContent>
-      </Card>
-
-      {/* Format grid */}
-      <h2 className="text-xl font-bold mb-4">Video format breakdown</h2>
-      <div className="grid sm:grid-cols-2 gap-3 mb-12">
+      <h2 className="text-xl font-bold mb-4">How she does it</h2>
+      <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm mb-12">
         {format.map(([label, desc]) => (
-          <Card key={label} className="border-border/50">
-            <CardContent className="p-4">
-              <p className="text-[11px] uppercase tracking-widest text-violet-500 font-semibold">{label}</p>
-              <p className="text-sm mt-1 text-muted-foreground">{desc}</p>
-            </CardContent>
-          </Card>
+          <>
+            <span key={label + "l"} className="text-muted-foreground font-medium">{label}</span>
+            <span key={label + "d"}>{desc}</span>
+          </>
         ))}
       </div>
 

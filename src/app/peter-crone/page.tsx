@@ -3,18 +3,18 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Phone or single camera. Just you and your phone. Two people talking for coaching."],
-  ["Framing", "Close-up face, head-and-shoulders. Intimate. Feels like he's talking TO you."],
-  ["Lighting", "Natural or soft indoor. Not studio-grade. Warm, slightly imperfect."],
-  ["Background", "Plain wall, outdoor, or event stage. Nothing distracting."],
-  ["Length", "30-90 sec. Coaching clips can run 60-90 sec."],
-  ["Editing", "Minimal. Sometimes slow zoom on key moment. No jump cuts."],
-  ["Text overlay", "Name + 'The Mind Architect' lower third. Sometimes question as text."],
-  ["Subtitles", "White captions on screen. Standard placement."],
-  ["Audio", "Original voice. No music. Quiet intimate delivery, almost a whisper."],
-  ["Appearance", "Plain dark t-shirt, relaxed, calm. Nothing flashy. Energy IS the brand."],
-  ["First 3 sec", "Opens with THE QUESTION: 'Who could you be in the absence of your concerns?'"],
-  ["CTA", "'SAVE this post and come back to it.' Asks for saves, not likes or comments."],
+  ["Camera", "Just his phone"],
+  ["Framing", "Close-up on his face. Feels like he's talking to you."],
+  ["Lighting", "Natural light. Nothing fancy."],
+  ["Background", "Plain wall or outdoors"],
+  ["Length", "30-90 seconds"],
+  ["Editing", "Almost none. Sometimes a slow zoom."],
+  ["Text", "His name and title at the bottom"],
+  ["Subtitles", "Yes, always on screen"],
+  ["Audio", "Just his voice. Quiet, almost a whisper."],
+  ["What he wears", "Plain dark t-shirt. Relaxed, calm."],
+  ["How it starts", "Opens with a question that makes you stop scrolling"],
+  ["Caption", "'Save this and come back to it'"],
 ];
 
 export default function Page() {
@@ -33,20 +33,6 @@ export default function Page() {
         </div>
       </div>
 
-      <Card className="bg-emerald-50 border-emerald-200 mb-10">
-        <CardContent className="p-6">
-          <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
-          <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Develop ONE signature question that reframes identity</li>
-            <li><strong>2.</strong> Film just you and your phone, close-up, natural light, plain background</li>
-            <li><strong>3.</strong> Speak quietly and intimately, thoughtful, not motivational</li>
-            <li><strong>4.</strong> Open with the question in first 3 seconds</li>
-            <li><strong>5.</strong> Caption: ask people to SAVE the post and come back to it</li>
-            <li><strong>6.</strong> Film coaching sessions → clip the breakthrough moments</li>
-            <li><strong>7.</strong> Funnel: free gift → $29/mo membership → $5,400 mastermind</li>
-          </ol>
-        </CardContent>
-      </Card>
 
       <Card className="bg-emerald-50/50 border-emerald-100 mb-10">
         <CardContent className="p-6">
@@ -61,15 +47,13 @@ export default function Page() {
         </CardContent>
       </Card>
 
-      <h2 className="text-xl font-bold mb-4">Video format breakdown</h2>
-      <div className="grid sm:grid-cols-2 gap-3 mb-12">
+      <h2 className="text-xl font-bold mb-4">How he does it</h2>
+      <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm mb-12">
         {format.map(([label, desc]) => (
-          <Card key={label} className="border-border/50">
-            <CardContent className="p-4">
-              <p className="text-[11px] uppercase tracking-widest text-emerald-500 font-semibold">{label}</p>
-              <p className="text-sm mt-1 text-muted-foreground">{desc}</p>
-            </CardContent>
-          </Card>
+          <>
+            <span key={label + "l"} className="text-muted-foreground font-medium">{label}</span>
+            <span key={label + "d"}>{desc}</span>
+          </>
         ))}
       </div>
 

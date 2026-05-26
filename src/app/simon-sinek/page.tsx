@@ -3,18 +3,18 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Someone films you while you talk. One camera is enough."],
-  ["Framing", "Waist-up or head-and-shoulders. Often seated across from another person."],
-  ["Lighting", "Stage lighting, spotlit speaker, darker background with audience."],
-  ["Background", "Stage with audience, or podcast studio with guest."],
-  ["Length", "30-60 sec. The single best one-liner from a keynote."],
-  ["Editing", "Cuts between speaker and audience reactions. Clean, no effects."],
-  ["Text overlay", "Sometimes event name. Mostly just spoken word + captions."],
-  ["Subtitles", "White subtitles on screen."],
-  ["Audio", "Original voice from event. No music. No trending sounds."],
-  ["Appearance", "Casual smart, blazer or sweater, no tie. Approachable."],
-  ["First 3 sec", "Opens with THE ONE-LINER. 'Friendship is a foundation. not a luxury.'"],
-  ["CTA", "'Comment [WORD] and I'll DM you the episode.' Every. Single. Post."],
+  ["Camera", "Someone films him on stage"],
+  ["Framing", "Waist-up or head-and-shoulders"],
+  ["Lighting", "Stage lighting, audience in background"],
+  ["Background", "Stage with people watching"],
+  ["Length", "30-60 seconds"],
+  ["Editing", "Cuts between him and audience reactions"],
+  ["Text", "Sometimes the event name"],
+  ["Subtitles", "Yes, always on screen"],
+  ["Audio", "Just his voice. No music."],
+  ["What he wears", "Blazer or sweater, no tie"],
+  ["How it starts", "One powerful sentence right away. No intro."],
+  ["Caption", "'Comment [WORD] and I'll DM you the episode'"],
 ];
 
 export default function Page() {
@@ -33,29 +33,13 @@ export default function Page() {
         </div>
       </div>
 
-      <Card className="bg-orange-50 border-orange-200 mb-10">
-        <CardContent className="p-6">
-          <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
-          <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Speak at events or record conversations</li>
-            <li><strong>2.</strong> Find the ONE sentence that reframes something familiar</li>
-            <li><strong>3.</strong> Open the clip with that sentence, first 3 sec = the hook</li>
-            <li><strong>4.</strong> Add subtitles. Clean. No fancy graphics.</li>
-            <li><strong>5.</strong> Caption: &ldquo;Comment [WORD] and I&rsquo;ll DM you the full episode&rdquo;</li>
-            <li><strong>6.</strong> Each clip should map to something you sell. Free content = the pitch.</li>
-          </ol>
-        </CardContent>
-      </Card>
-
-      <h2 className="text-xl font-bold mb-4">Video format breakdown</h2>
-      <div className="grid sm:grid-cols-2 gap-3 mb-12">
+      <h2 className="text-xl font-bold mb-4">How he does it</h2>
+      <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm mb-12">
         {format.map(([label, desc]) => (
-          <Card key={label} className="border-border/50">
-            <CardContent className="p-4">
-              <p className="text-[11px] uppercase tracking-widest text-orange-500 font-semibold">{label}</p>
-              <p className="text-sm mt-1 text-muted-foreground">{desc}</p>
-            </CardContent>
-          </Card>
+          <>
+            <span key={label + "l"} className="text-muted-foreground font-medium">{label}</span>
+            <span key={label + "d"}>{desc}</span>
+          </>
         ))}
       </div>
 

@@ -3,18 +3,18 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Podcast studio, 2+ cameras. Professional but warm. Close-up of her face and guest."],
-  ["Framing", "Tight on face when she's making a point. Wider 2-shot during conversation."],
-  ["Lighting", "Studio lighting, clean and bright, not moody, energetic and clear."],
-  ["Background", "Branded podcast set. Clean, modern, well-lit. Consistent every episode."],
-  ["Length", "30-60 sec clips from full episodes. Pulled at the most hook-worthy moment."],
-  ["Editing", "Quick cuts between her and guest. Zoom-ins on key lines. More edited than others."],
-  ["Text overlay", "Episode title, guest name, topic, all on screen. Bold, clear, readable."],
-  ["Subtitles", "Large, bold text on screen. Easy to read with sound off."],
-  ["Audio", "Original voice. Sometimes light background music bed. No trending sounds."],
-  ["Appearance", "Casual chic, fitted top, natural makeup, expressive face. High energy."],
-  ["First 3 sec", "SHOCKING stat or bold claim. 'This statistic will leave you SHOCKED.'"],
-  ["CTA", "'Comment [WORD] and I'll DM you the link.' Every single conversation clip."],
+  ["Camera", "Two people in a studio"],
+  ["Framing", "Close-up on faces during key moments"],
+  ["Lighting", "Bright, clean, energetic"],
+  ["Background", "Her studio set. Same every time."],
+  ["Length", "30-60 seconds"],
+  ["Editing", "Quick cuts between her and guest. Zoom on key lines."],
+  ["Text", "Episode title, guest name, topic on screen"],
+  ["Subtitles", "Yes, large and bold"],
+  ["Audio", "Their voices. Sometimes light music underneath."],
+  ["What she wears", "Casual, natural makeup, high energy"],
+  ["How it starts", "A surprising fact or bold claim"],
+  ["Caption", "'Comment [WORD] and I'll DM you the link'"],
 ];
 
 export default function Page() {
@@ -33,29 +33,14 @@ export default function Page() {
         </div>
       </div>
 
-      <Card className="bg-blue-50 border-blue-200 mb-10">
-        <CardContent className="p-6">
-          <h2 className="font-bold text-lg mb-3">How to copy this format</h2>
-          <ol className="space-y-2 text-sm">
-            <li><strong>1.</strong> Have a conversation with someone credible (doctor, author, researcher)</li>
-            <li><strong>2.</strong> Pull the most surprising stat or claim. 30-60 seconds</li>
-            <li><strong>3.</strong> Open with the SHOCK: &ldquo;This stat will blow your mind&rdquo;</li>
-            <li><strong>4.</strong> Bold subtitles + guest name + episode title on screen</li>
-            <li><strong>5.</strong> Caption: &ldquo;Comment [WORD] and I&rsquo;ll DM you the full episode&rdquo;</li>
-            <li><strong>6.</strong> Test concepts as clips FIRST → turn winners into books/products</li>
-          </ol>
-        </CardContent>
-      </Card>
 
-      <h2 className="text-xl font-bold mb-4">Video format breakdown</h2>
-      <div className="grid sm:grid-cols-2 gap-3 mb-12">
+      <h2 className="text-xl font-bold mb-4">How she does it</h2>
+      <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm mb-12">
         {format.map(([label, desc]) => (
-          <Card key={label} className="border-border/50">
-            <CardContent className="p-4">
-              <p className="text-[11px] uppercase tracking-widest text-blue-500 font-semibold">{label}</p>
-              <p className="text-sm mt-1 text-muted-foreground">{desc}</p>
-            </CardContent>
-          </Card>
+          <>
+            <span key={label + "l"} className="text-muted-foreground font-medium">{label}</span>
+            <span key={label + "d"}>{desc}</span>
+          </>
         ))}
       </div>
 
