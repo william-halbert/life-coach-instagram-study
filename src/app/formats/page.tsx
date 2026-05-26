@@ -79,7 +79,7 @@ export default function Page() {
       <h2 className="text-xl font-bold mt-14 mb-4">Checklist before you post</h2>
       <div className="space-y-2">
         {[
-          "Show your face in the first 3 seconds",
+          "Starts with the speaker",
           "Use one idea for each video",
           "Do not use an intro",
           "Add subtitles (most people watch on mute)",
