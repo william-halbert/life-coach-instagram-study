@@ -82,7 +82,7 @@ export default function Page() {
           "Starts with the speaker",
           "Use one idea for each video",
           "Do not use an intro",
-          "Add subtitles (most people watch on mute)",
+          "Add subtitles",
           "Don't use music overlay",
           "Keep it under 90 seconds",
           "Simple editing is all you need",
