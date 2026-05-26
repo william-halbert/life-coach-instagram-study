@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Embed } from "@/lib/embed";
 
 const format = [
-  ["Camera", "Pro multi-camera event recording. Wide stage + close-up face."],
+  ["Camera", "Someone films you while you talk. One camera is enough."],
   ["Framing", "Waist-up or head-and-shoulders. Often seated across from another person."],
   ["Lighting", "Stage lighting, spotlit speaker, darker background with audience."],
   ["Background", "Stage with audience, or podcast studio with guest."],
