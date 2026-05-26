@@ -80,7 +80,7 @@ export default function Page() {
       <div className="space-y-2">
         {[
           "Show your face in the first 3 seconds",
-          "Talk about one thing, not five",
+          "Use one idea for each video",
           "Skip the intro. Just start talking.",
           "Add subtitles (most people watch on mute)",
           "Use your own voice, not a trending sound",
@@ -88,10 +88,10 @@ export default function Page() {
           "Don't overthink production. Phone quality is fine.",
           "Link it to something people can do next (full episode, free resource, your website)",
         ].map((rule) => (
-          <label key={rule} className="flex items-start gap-3 text-sm cursor-pointer">
-            <input type="checkbox" className="mt-1 accent-primary" />
+          <div key={rule} className="flex items-start gap-3 text-sm">
+            <span className="text-primary mt-0.5">✓</span>
             <span>{rule}</span>
-          </label>
+          </div>
         ))}
       </div>
     </div>
