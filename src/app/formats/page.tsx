@@ -21,7 +21,7 @@ export default function Page() {
       <div className="space-y-2">
         {[
           "Record a conversation, coaching session, or talk",
-          "Find the one best moment (30-90 seconds)",
+          "Find the one best moment",
           "Start at the interesting part, not the beginning",
           "Add subtitles",
           "Write a short caption",
