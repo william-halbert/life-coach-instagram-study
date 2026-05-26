@@ -85,7 +85,7 @@ export default function Page() {
           "Add subtitles (most people watch on mute)",
           "Don't use music overlay",
           "Keep it under 90 seconds",
-          "Don't overthink production. Phone quality is fine.",
+          "Simple editing is all you need",
           "Link it to something people can do next (full episode, free resource, your website)",
         ].map((rule) => (
           <div key={rule} className="flex items-start gap-3 text-sm">
